@@ -1,0 +1,24 @@
+TOTAL CSV RECORDS: 5261
+NUMBER OF COLUMNS: 283
+
+GPS:dateTimeStamp
+First: 2018-06-19T18:50:34Z
+Last: 2018-06-19T18:55:39Z
+
+Controller:ctrl_mode
+First: GPS_Atti
+Last: AutoLanding
+
+Controller:motor_state:D
+First: 0
+Last: 1
+
+FLIGHT MODES:
+Counter({'GPS_Atti': 4920, 'AutoTakeoff': 170, 'AutoLanding': 137, 'ASST_TAKEOFF': 33})
+
+MOTOR STATES:
+Counter({'1': 5259, '0': 1})
+
+ALTITUDE RANGE:
+IMU_ATTI(0):relativeHeight:C Minimum: -12.695556250000209 Maximum: 22.52929726562479
+GPS:heightMSL Minimum: 2483.623 Maximum: 2516.93

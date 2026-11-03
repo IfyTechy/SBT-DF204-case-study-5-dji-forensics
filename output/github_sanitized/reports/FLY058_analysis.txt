@@ -1,0 +1,33 @@
+TOTAL CSV RECORDS: 3785
+NUMBER OF COLUMNS: 279
+
+GPS:dateTimeStamp
+First: 2018-06-19T19:00:23Z
+Last: 2018-06-19T19:02:08Z
+
+Controller:ctrl_mode
+First: GPS_Atti
+Last: Atti
+Value counts: [('GPS_Atti', 3748), ('Atti', 32)]
+
+Controller:motor_state:D
+First: 0
+Last: 0
+Value counts: [('0', 3780)]
+
+ALTITUDE RANGE:
+IMU_ATTI(0):relativeHeight:C Minimum: -0.3618163750002168 Maximum: 1.3139650781249657
+GPS:heightMSL Minimum: 2483.849 Maximum: 2485.736
+
+MOTOR SPEED ANALYSIS
+Motor:Speed:RFront - 3775 populated records; min 0; max 0; non-zero 0
+Motor:Speed:LFront - 3775 populated records; min 0; max 0; non-zero 0
+Motor:Speed:RBack  - 3775 populated records; min 0; max 0; non-zero 0
+Motor:Speed:LBack  - 3775 populated records; min 0; max 0; non-zero 0
+
+INTERPRETATION
+All four populated motor-speed fields contain zero values.
+Controller:motor_state:D was also zero in all 3780 populated records.
+Both IMU relative-height fields remained close to zero.
+These observations are consistent with a stationary or ground-level recording.
+They do not independently establish the physical state of the aircraft.

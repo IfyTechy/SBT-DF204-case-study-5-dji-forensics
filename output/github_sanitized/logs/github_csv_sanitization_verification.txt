@@ -1,0 +1,42 @@
+DJI MAVIC AIR - CSV SANITISATION VERIFICATION
+
+Purpose:
+Verify that identified sensitive or potentially sensitive
+columns were removed from the GitHub publication copies.
+
+Dataset: FLY057
+Original columns: 298
+Sanitised columns: 283
+Excluded columns: 15
+Verification: PASS
+
+Dataset: FLY058
+Original columns: 294
+Sanitised columns: 279
+Excluded columns: 15
+Verification: PASS
+
+Excluded fields:
+- IMU_ATTI(0):Longitude
+- IMU_ATTI(0):Latitude
+- IMUCalcs(0):Lat:C
+- IMUCalcs(0):Long:C
+- GPS:Long
+- GPS:Lat
+- IMU_ATTI(1):Longitude
+- IMU_ATTI(1):Latitude
+- IMUCalcs(1):Lat:C
+- IMUCalcs(1):Long:C
+- BatteryInfo:BatAuth:D
+- Controller:D2H_x:D
+- Controller:D2H_y:D
+- VIO:posX
+- VIO:posY
+
+Method:
+Python pandas was used to inspect the CSV headers and
+confirm that none of the listed fields remained.
+
+Note:
+This is a column-level verification, not a complete
+privacy audit of every remaining data value.

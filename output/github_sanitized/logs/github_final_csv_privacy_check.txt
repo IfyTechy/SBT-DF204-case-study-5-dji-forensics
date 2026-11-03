@@ -1,0 +1,36 @@
+DJI MAVIC AIR - FINAL CSV PRIVACY CHECK
+
+Purpose:
+Verify the sanitised CSV publication copies before GitHub release.
+
+FLY057
+Rows: 5261
+Columns: 283
+Location-related columns: None found
+Known serial identifiers: None found
+Redacted metadata entries: 0
+Result: PASS
+
+FLY058
+Rows: 3785
+Columns: 279
+Location-related columns: None found
+Known serial identifiers: None found
+Redacted metadata entries: 1
+Result: PASS
+
+FLY058 metadata:
+One aircraft serial value was replaced with [REDACTED]
+in the Attribute|Value field.
+The row and all columns were preserved.
+
+Method:
+Python pandas was used to inspect CSV headers and scan
+data values for specified identifiers.
+
+Limitations:
+This check covers the specified fields and identifiers.
+It is not a guarantee that all potentially identifying
+information has been removed.
+
+Original forensic exports remain unchanged.

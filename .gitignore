@@ -1,0 +1,14 @@
+# Original evidence and extracted working data
+/original/
+/working/
+/evidence/
+/tools/
+/screenshots/
+/report/
+
+# Keep only sanitised publication materials
+/output/*
+!/output/github_sanitized/
+
+# Local logs are private by default
+/logs/*
