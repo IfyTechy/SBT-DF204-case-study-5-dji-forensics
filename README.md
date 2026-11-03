@@ -15,36 +15,37 @@ The investigation centers on an offline forensic examination of an Android logic
 ```text
 dji-mavic-air-digital-forensics/
 │
-├── original/
-│   └── Original evidence images and archives
+├── README.md
 │
-├── working/
-│   └── Working copies and extracted evidence
+├── evidence/
+│   └── evidence_inventory.md
 │
-├── tools/
-│   ├── DatCon/
-│   └── djiparsetxt/
+├── analysis/
+│   ├── txt/
+│   │   ├── decoded_flight_record.txt
+│   │   └── flight_record_analysis.txt
+│   │
+│   ├── dat/
+│   │   ├── FLY057_analysis.txt
+│   │   └── FLY058_analysis.txt
+│   │
+│   └── video/
+│       ├── cached_video_metadata.txt
+│       └── visual_examination.txt
 │
-├── output/
-│   ├── txt_decoded/
-│   ├── dat_analysis/
-│   ├── video_frames/
-│   ├── jpg_contact_sheet/
-│   ├── ewf_media/
-│   └── ewf_video_frames/
+├── reports/
+│   ├── preliminary_findings.md
+│   ├── evidence_correlation.md
+│   ├── forensic_timeline.csv
+│   └── final_forensic_report.pdf
 │
 ├── logs/
-│   ├── Evidence hashes
-│   ├── EWF verification
-│   ├── Flight record analysis
-│   ├── Video metadata
-│   └── Visual examination notes
+│   └── sanitised_hashes_and_verification.txt
 │
 ├── screenshots/
 │
-├── report/
-│
-└── README.md
+└── scripts/
+    └── analyse_flight.py
 ```
 
 ## Case Materials & Preservation Summary
