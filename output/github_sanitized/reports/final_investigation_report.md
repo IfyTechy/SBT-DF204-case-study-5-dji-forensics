@@ -1,5 +1,5 @@
 # DIGITAL FORENSIC INVESTIGATION REPORT
-## DJI Mavic Air — Case Study 5
+## DJI Mavic Air - Case Study 5
 
 **Investigation:** DJI Mavic Air Digital Forensic Examination  
 **Case Reference:** DF048 / SBT-DF204 Case Study 5  
