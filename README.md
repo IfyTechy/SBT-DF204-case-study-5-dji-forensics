@@ -42,8 +42,6 @@ dji-mavic-air-digital-forensics/
 ├── logs/
 │   └── sanitised_hashes_and_verification.txt
 │
-├── screenshots/
-│
 └── scripts/
     └── analyse_flight.py
 ```
