@@ -13,37 +13,25 @@ The investigation centers on an offline forensic examination of an Android logic
 
 ## Repository Structure
 ```text
-dji-mavic-air-digital-forensics/
-│
-├── README.md
-│
-├── evidence/
-│   └── evidence_inventory.md
-│
-├── analysis/
-│   ├── txt/
-│   │   ├── decoded_flight_record.txt
-│   │   └── flight_record_analysis.txt
-│   │
-│   ├── dat/
-│   │   ├── FLY057_analysis.txt
-│   │   └── FLY058_analysis.txt
-│   │
-│   └── video/
-│       ├── cached_video_metadata.txt
-│       └── visual_examination.txt
-│
-├── reports/
-│   ├── preliminary_findings.md
-│   ├── evidence_correlation.md
-│   ├── forensic_timeline.csv
-│   └── final_forensic_report.pdf
-│
-├── logs/
-│   └── sanitised_hashes_and_verification.txt
-│
-└── scripts/
-    └── analyse_flight.py
+└── output/
+    │
+    └── github_sanitized/
+        │
+        ├── dat/
+        │   ├── 18-06-19-02-47-38_FLY057.csv
+        │   ├── 18-06-19-02-59-05_FLY058.csv
+        │   └── README.md
+        │
+        ├── logs/
+        │   ├── github_csv_sanitization_verification.txt
+        │   └── github_final_csv_privacy_check.txt
+        │
+        └── reports/
+            ├── FLY057_analysis.txt
+            ├── FLY058_analysis.txt
+            ├── evidence_inventory.md
+            ├── visual_examination_summary.md
+            └── final_forensic_report.pdf    
 ```
 
 ## Case Materials & Preservation Summary
